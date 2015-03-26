@@ -15,6 +15,8 @@ select name from abc where name like 'test%';
 ```python
 from fabric.api import local
 
+# here are some comments
+# comments line 2
 def update():
     local('rm -rf bower_components')
     local('bower cache clean')
